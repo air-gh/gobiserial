@@ -779,5 +779,5 @@ MODULE_AUTHOR( DRIVER_AUTHOR );
 MODULE_DESCRIPTION( DRIVER_DESC );
 MODULE_LICENSE("Dual BSD/GPL");
 
-module_param( debug, bool, S_IRUGO | S_IWUSR );
+module_param( debug, int, S_IRUGO | S_IWUSR );
 MODULE_PARM_DESC( debug, "Debug enabled or not" );
